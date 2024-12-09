@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link} from "react-router-dom";
 import Dropdown from "./dropDown";
 
+import logo from "../BG-img/logo.png"
+
 const Header = () => {
     const [toogle, setToogle] = useState(false);
     const [showdropdown, setShowdropdown] = useState(false)
@@ -9,7 +11,7 @@ const Header = () => {
     return ( 
        <>
             <header className="relative">
-                <Link to="/"><h1>Layhor Consult</h1></Link>
+                <Link to="/"><img src={logo} alt="logo" className="logo"/></Link>
                 <nav>
                     <Link to="/"><p>Home</p></Link>
                     <Link to="/about"><p>About</p></Link>

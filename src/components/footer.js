@@ -1,10 +1,12 @@
+import logo from "../BG-img/logo.png"
+
 const Footer = () => {
     return ( 
         <footer>
     
             <div className="footer-top">
                 <div className="top-left">
-                    <h1>Layhor Consults.</h1>
+                    <img src={logo}  alt="logo" className="logo"/>
                     <p>I am a frontend developer from Nigeria.</p>
                 </div>
                 <div className="footer-top-right">
