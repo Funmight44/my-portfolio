@@ -20,7 +20,7 @@ const Footer = () => {
             
             <hr/>
             <div className="footer-bottom">
-                <p>copywrite @2024 Funmight.  All rights reserved.</p>
+                <p>copyright @Funmight 2024.  All rights reserved.</p>
                 <div className="bottom-right">
                     <p>Term of Service </p>
                     <p>Privacy policy</p>
