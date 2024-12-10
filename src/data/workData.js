@@ -5,7 +5,7 @@ import pic5 from "../BG-img/project-pic5.png";
 import pic6 from "../BG-img/project-pic6.png";
 import pic7 from "../BG-img/project-pic7.png";
 import pic8 from "../BG-img/project-pic8.png";
-import quizeApp from "../BG-img/quize-pic.png";
+import quizeApp from "../BG-img/quiz app.png";
 import staybnbPic from "../BG-img/statbnb-pic.png";
 import todoAppPic from "../BG-img/todo-pic.png";
 import VideTubePic from "../BG-img/videTube-pic.png";

@@ -1,5 +1,5 @@
 import pic8 from "../BG-img/project-pic8.png";
-import quizeApp from "../BG-img/quize-pic.png";
+import quizeApp from "../BG-img/quiz app.png";
 import staybnbPic from "../BG-img/statbnb-pic.png";
 import todoAppPic from "../BG-img/todo-pic.png";
 
