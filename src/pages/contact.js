@@ -1,6 +1,9 @@
 import { useState } from "react";
+import UseTitle from "../components/hook/useTitle";
 
 const Contact = () => {
+  UseTitle("contact page")
+
     const [result, setResult] = useState("");
     const onSubmit = async (event) => {
         event.preventDefault();

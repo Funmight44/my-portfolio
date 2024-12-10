@@ -1,8 +1,12 @@
 // import mouse from "../BG-img/mouse-pic.jpg"
 import pics from "../BG-img/my pic.jpg"
+import UseTitle from "../components/hook/useTitle";
 
 
 const About = () => {
+    UseTitle('about page');
+
+
     return ( 
         <section className="about">
                 <h1>About me</h1>
@@ -35,7 +39,7 @@ const About = () => {
                 </div>
                 <hr/>
                 <div className="achievement">
-                    <h2>90+</h2>
+                    <h2>20+</h2>
                     <p>Project Completed</p>
                 </div>
                 <hr/>

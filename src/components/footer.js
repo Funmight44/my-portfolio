@@ -1,12 +1,12 @@
 import logo from "../BG-img/logo.png"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return ( 
         <footer>
-    
             <div className="footer-top">
                 <div className="top-left">
-                    <img src={logo}  alt="logo" className="logo"/>
+                    <Link to="/"><img src={logo}  alt="logo" className="logo"/></Link>
                     <p>I am a frontend developer from Nigeria.</p>
                 </div>
                 <div className="footer-top-right">

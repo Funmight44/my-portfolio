@@ -17,6 +17,7 @@ const AllRoutes = () => {
                     <Route path="/about"  element={<About/>}/>
                     <Route path="/services"  element={<Services/>}/>
                     <Route path="/work"  element={<Work/>}/>
+                    
                     <Route path="/cssProjects"  element={<CSSProjects/>}/>
                     <Route path="/javascript"  element={<JavascriptPro/>}/>
                     <Route path="/reactPro"  element={<ReactPro/>}/>

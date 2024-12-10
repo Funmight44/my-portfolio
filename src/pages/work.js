@@ -1,7 +1,9 @@
+import UseTitle from "../components/hook/useTitle";
 import WorkCard from "../components/workCard";
 import myWorks from "../data/workData";
 
 const Work = () => {
+    UseTitle("projects page")
     return ( 
         <section className="work">
             <p className="work_title">My Projects</p>

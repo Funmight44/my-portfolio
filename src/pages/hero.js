@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom";
 import pics from "../BG-img/my pic.jpg"
+import UseTitle from "../components/hook/useTitle";
 
 const Hero = () => {
+    UseTitle("home page")
+
+
     return ( 
         <section className="hero">
                 <img src={pics} alt="pic"/>
@@ -11,7 +15,7 @@ const Hero = () => {
                     as well as creating professional resumes and CVs.
                 </p>
                 <div className="hero-action">
-                    <Link to="/contact"><p className="hero-connect">Connect with me</p></Link>
+                    <Link to="/contact"><p className="hero-connect">Contact me</p></Link>
                     <p className="hero-resume">my resume</p>
                 </div>
         </section>
