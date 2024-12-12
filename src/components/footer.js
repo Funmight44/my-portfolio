@@ -1,5 +1,5 @@
 // import logo from "../BG-img/logo.png"
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return ( 
@@ -24,7 +24,7 @@ const Footer = () => {
                 <div className="bottom-right">
                     <p>Term of Service </p>
                     <p>Privacy policy</p>
-                    <p>Contact me</p>
+                    <Link to="https://www.linkedin.com/in/akano-funmilayo44"><p> <i class="bi bi-linkedin"></i>Linkedin</p></Link>
                 </div>
             </div>
         </footer>

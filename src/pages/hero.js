@@ -16,7 +16,8 @@ const Hero = () => {
                 </p>
                 <div className="hero-action">
                     <Link to="/contact"><p className="hero-connect">Contact me</p></Link>
-                    <p className="hero-resume">my resume</p>
+                    <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <p className="hero-resume">my resume</p></a>
                 </div>
         </section>
      );
