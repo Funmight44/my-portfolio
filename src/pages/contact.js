@@ -1,5 +1,6 @@
 import { useState } from "react";
 import UseTitle from "../components/hook/useTitle";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   UseTitle("contact page")
@@ -49,6 +50,10 @@ const Contact = () => {
                         <div className="contact-detail">
                             <p> <i class="bi bi-geo-alt-fill"></i></p>
                             <span>Arobieye, idi-iroko road, Sango Ota, Ogun State, Nigeria.</span>
+                        </div>
+                        <div className="contact-detail">
+                          <p><i class="bi bi-linkedin"></i></p>
+                           <Link to="https://www.linkedin.com/in/akano-funmilayo44"><p>Linkedin</p></Link>
                         </div>
                     </div>
                 </div>
