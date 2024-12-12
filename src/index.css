@@ -30,17 +30,18 @@ main{
 
 header{
     display: flex;
-    width: 100%;
+    width: 90%;
     justify-content: space-between;
     align-items: center;
-    margin: 0 10px;
+    margin: 0 auto;
     padding: 10px;
+    border-bottom: 1px solid #999;
 }
 
 header .logo, footer .logo{
     width: 70px;
     height: 70px;
-    margin-left:10px ;
+    /* margin-left:10px ; */
 }
 
 header nav{
@@ -57,9 +58,7 @@ header nav p:hover{
     color: white;
 }
 
-header .connect {
-    margin-right: 30px;
-}
+
 
 header .connect{
     background: linear-gradient(267deg, #da7c25 0.36%, #b923e1);
@@ -271,7 +270,7 @@ header .connect:hover, .hero .hero-connect{
 
 .service_card:hover{
     border: 2px solid #da30da;
-    background-image: linear-gradient(45deg, #ff00ff 50%, #582300);
+    background-image: linear-gradient(270deg, #ff00ff 100%, #582300 50%);
     transform: scale(1.05);
     transition: all ease 0.5s;
     color: white;
