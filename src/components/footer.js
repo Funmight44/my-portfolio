@@ -1,5 +1,5 @@
-import logo from "../BG-img/logo.png"
-import { Link } from "react-router-dom";
+// import logo from "../BG-img/logo.png"
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
     return ( 
