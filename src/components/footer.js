@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
     return ( 
         <footer>
-            <div className="footer-top">
+            {/* <div className="footer-top">
                 <div className="top-left">
                     <Link to="/"><img src={logo}  alt="logo" className="logo"/></Link>
                     <p>I am a frontend developer from Nigeria.</p>
@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                     <p className="sub-btn">Subscribe</p>
                 </div>
-            </div>
+            </div> */}
             
             <hr/>
             <div className="footer-bottom">

@@ -461,6 +461,8 @@ header .connect:hover, .hero .hero-connect{
     border-radius: 10px;
     background-color: #666;
     color: black;
+    border: none;
+    outline: none;
 }
 
 .contact-right label{
@@ -489,10 +491,11 @@ header .connect:hover, .hero .hero-connect{
 /* footer style */
 
 footer{
-    width: 100%;
-    margin-top: 20px;
+    width: 90%;
+    margin: 20px auto;
+    /* margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px; */
 }
 
 footer .footer-top{
@@ -709,6 +712,9 @@ footer .footer-bottom p{
        
     }
 
+    .footer-top{
+        flex-direction: column;
+    }
 
     .footer-top .footer-top-right .top-right{
         padding: 7px 15px;
@@ -728,10 +734,10 @@ footer .footer-bottom p{
         flex-direction: column-reverse;
     }
 
-    footer{
+    /* footer{
         width: 80%;
         margin: 30px auto;
-    }
+    } */
 
     .contact-left .contact-para{
         font-size: 16px; 
