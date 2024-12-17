@@ -5,7 +5,7 @@ const ServiceCard = ({service}) => {
             <p className="service-id">{service.id}</p>
             <h2 className="service_title">{service.name}</h2>
             <p className="service_descr">{service.desc}</p>
-            <span>show More <i class="bi bi-arrow-right-short"></i></span>
+            {/* <span>show More <i class="bi bi-arrow-right-short"></i></span> */}
         </div>
      );
 }

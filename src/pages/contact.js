@@ -36,7 +36,7 @@ const Contact = () => {
             <p className="contact-title">Get in touch </p>
             <div className="contact-session">
                 <div className="contact-left">
-                    <h1>Let's talk.</h1>
+                    <h1>Let's connect.</h1>
                     <p className="contact-para">I am readily available to take new projects, so feel free to send me a message on any of our services you want. </p>
                     <div className="contact-details">
                         <div className="contact-detail">
@@ -59,11 +59,11 @@ const Contact = () => {
                 </div>
                 <form onSubmit={onSubmit} className="contact-right">
                     <label>Write your name</label>
-                    <input type="text" placeholder="Name" name="name"/>
+                    <input type="text" placeholder="Name" name="name" required/>
                     <label>Write your email</label>
-                    <input type="email" placeholder="Email" name="email"/>
+                    <input type="email" placeholder="Email" name="email" required/>
                     <label>Write your Message</label>
-                    <textarea placeholder="Write your message" rows="8" name="message"></textarea>
+                    <textarea placeholder="Write your message" rows="8" name="message" required></textarea>
                     <button type="submit">Submit</button>
                       <span>{result}</span>
                 </form>

@@ -41,7 +41,6 @@ header{
 header .logo, footer .logo{
     width: 70px;
     height: 70px;
-    /* margin-left:10px ; */
 }
 
 header nav{
@@ -111,7 +110,7 @@ header .connect:hover, .hero .hero-connect{
 }
 
 .hero-action{
-    width: 40%;
+    width: 30%;
     display: flex;
     align-items: center;
     gap:25px;
@@ -493,9 +492,6 @@ header .connect:hover, .hero .hero-connect{
 footer{
     width: 90%;
     margin: 20px auto;
-    /* margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px; */
 }
 
 footer .footer-top{

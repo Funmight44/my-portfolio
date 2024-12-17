@@ -16,24 +16,23 @@ const Header = () => {
                     <Link to="/"><p>Home</p></Link>
                     <Link to="/about"><p>About</p></Link>
                     <Link to="/services"><p>Services</p></Link>
-                    <Link to=""><p onClick={() => setShowdropdown(!showdropdown)}>projects</p></Link>
+                    <Link to="/cssProjects"><p onClick={() => setShowdropdown(!showdropdown)}>projects</p></Link>
                     {showdropdown && <Dropdown  setShowdropdown={setShowdropdown}/>}
-                    <Link to="/contact"><p>Contact</p></Link>
+                    {/* <Link to="/contact"><p>Contact</p></Link> */}
                 </nav>
                   <Link to="/contact"> <p className="connect">Contact me</p></Link> 
                 <span className="menubar"  onClick={() => setToogle(!toogle)}><i class="bi bi-list"></i></span>
             </header>
 
-               <nav className={`sidebar ${toogle ? "active" : ''}  `}>
+               <nav className={`sidebar ${toogle ? "active" : ''}  `} onClick={() => setToogle(false)}>
                   <span className="cross" onClick={() => setToogle(false)}><i class="bi bi-cross"></i></span>
-                    <Link to="/"><p onClick={() => setToogle(false)}>Home</p></Link>
-                    <Link to="/about"><p onClick={() => setToogle(false)}>About</p></Link>
-                    <Link to="/services"><p onClick={() => setToogle(false)}>Services</p></Link>
+                    <Link to="/"><p >Home</p></Link>
+                    <Link to="/about"><p >About</p></Link>
+                    <Link to="/services"><p>Services</p></Link>
                     {/* <Link to=""><p onClick={() => setShowdropdown(!showdropdown)}>projects</p></Link>
                     {showdropdown && <Dropdown  setShowdropdown={setShowdropdown}/>}
                     <Link to="/contact"><p>Contact</p></Link> */}
-                    <Link to="/work"><p onClick={() => setToogle(false)}>projects</p></Link>
-                    <Link to="/contact"><p onClick={() => setToogle(false)}>Contact</p></Link>
+                    <Link to="/work"><p>projects</p></Link>
                 </nav>
             
         </>
