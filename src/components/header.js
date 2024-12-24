@@ -15,6 +15,7 @@ const Header = () => {
                 <nav>
                     <Link to="/"><p>Home</p></Link>
                     <Link to="/about"><p>About</p></Link>
+                    <Link to="/skills"><p >Skills</p></Link>
                     <Link to="/services"><p>Services</p></Link>
                     <Link to="/cssProjects"><p onClick={() => setShowdropdown(!showdropdown)}>projects</p></Link>
                     {showdropdown && <Dropdown  setShowdropdown={setShowdropdown}/>}
@@ -28,6 +29,7 @@ const Header = () => {
                   <span className="cross" onClick={() => setToogle(false)}><i class="bi bi-cross"></i></span>
                     <Link to="/"><p >Home</p></Link>
                     <Link to="/about"><p >About</p></Link>
+                    <Link to="/skills"><p >Skills</p></Link>
                     <Link to="/services"><p>Services</p></Link>
                     {/* <Link to=""><p onClick={() => setShowdropdown(!showdropdown)}>projects</p></Link>
                     {showdropdown && <Dropdown  setShowdropdown={setShowdropdown}/>}

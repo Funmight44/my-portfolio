@@ -7,6 +7,7 @@ import Contact from "../pages/contact";
 import CSSProjects from "../pages/cssProject";
 import JavascriptPro from "../pages/javascriptpro";
 import ReactPro from "../pages/reactPro";
+import Skills from "../pages/skills";
 
 const AllRoutes = () => {
     return ( 
@@ -15,6 +16,7 @@ const AllRoutes = () => {
                 <Routes>
                     <Route path="/"  element={<Hero/>}/>
                     <Route path="/about"  element={<About/>}/>
+                    <Route path="/skills"  element={<Skills/>}/>
                     <Route path="/services"  element={<Services/>}/>
                     <Route path="/work"  element={<Work/>}/>
                     

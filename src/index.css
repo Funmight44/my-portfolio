@@ -248,6 +248,59 @@ header .connect:hover, .hero .hero-connect{
 }
 
 
+
+/* skills style.... */
+
+.skills{
+    width: 80%;
+   
+    border-radius: 5px;
+    padding: 10px;
+    margin: 50px auto;
+}
+
+.skills h1{
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 20px 0;
+    color: #000;
+}
+
+
+.skills .skills-div{
+    background-color: #3333;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.skills-div .skills-logo{
+    width: 40%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.skills-logo img{
+    width: 100px;
+    height: 90px;
+}
+
+.skills-info li{
+    font-size: 20px;
+    margin: 30px 0;
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
 /* services style.... */
 
 .services{
@@ -708,6 +761,27 @@ footer .footer-bottom p{
        
     }
 
+
+    .skills-div{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+   .skills-div  .skills-logo{
+        width: 100%;
+        display: flex;
+    }
+
+    .skills-logo img{
+        width: 60px;
+        height: 70px;
+    }
+
+    .skills-info{
+        width: 100%;
+    }
+    
+
     .footer-top{
         flex-direction: column;
     }
@@ -769,7 +843,7 @@ footer .footer-bottom p{
         width: 80%;
         margin: auto;
     }
-}
 
 
+  }
 
