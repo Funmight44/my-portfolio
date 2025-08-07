@@ -11,8 +11,11 @@ import todoAppPic from "../BG-img/todo-pic.png";
 import VideTubePic from "../BG-img/videTube-pic.png";
 import socialBook from "../BG-img/socialBook_pic.png";
 import budgetPic from "../BG-img/budget-tracter-pic.png";
+import layhorStore from "../BG-img/lahyorStore.png"
+import shopify from "../BG-img/shopify.png"
 
-
+// 
+// /
 
 const myWorks = [
     {
@@ -82,7 +85,7 @@ const myWorks = [
     {
         pic: todoAppPic ,
         name: "To Do List.",
-        desc:  "This app has some functionalities that enable the users to record and track their activies. This is also created with HTML, CSS and Javascript.",
+        desc:  "This app has some functionalities that enable the users to record and track their activities. This is also created with HTML, CSS and Javascript.",
         link: 'https://event-manager-js.netlify.app'
     }, 
 
@@ -105,6 +108,20 @@ const myWorks = [
         name: "Budget Tracker.",
         desc: "This app is used to track income and expenses. It is created with HTML and CSS and Javascript",
         link: "https://budget-tracker-li.netlify.app"
+    },
+
+    {
+        pic: layhorStore,
+        name: "lahyor store.",
+        desc: "This is an ecomerce website where user can select, order and pay for their wears.  It is created with react.js",
+        link: "https://lahyorstore.netlify.app"
+    },
+
+    {
+        pic: shopify,
+        name: "Shopify.",
+        desc: "This is an ecomerce website where user can select, order and pay for their gadget such as headphone, phone, etc.  It is created with react.js",
+        link: "https://shopify001.netlify.app"
     }
 
 

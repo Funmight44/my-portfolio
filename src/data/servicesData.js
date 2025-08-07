@@ -33,6 +33,12 @@ const servicesData = [
         id: 6,
         name: "CV (curriculum Vitae)",
         desc: "This is an essential part of job applications, as it provides a summary of your education, work expirences, skill and personal information."
+    }, 
+
+    {
+        id: 7,
+        name: "Data Entry",
+        desc: "This involves inputing data into a computer system or database for proper documentation and easy access."
     }
 ]
 

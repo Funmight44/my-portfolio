@@ -4,6 +4,8 @@ import pic4 from "../BG-img/project-pic4.png";
 import pic5 from "../BG-img/project-pic5.png";
 import pic6 from "../BG-img/project-pic6.png";
 import pic7 from "../BG-img/project-pic7.png";
+import layhorStore from "../BG-img/lahyorStore.png"
+import shopify from "../BG-img/shopify.png"
 
 
 const reactProjects = [
@@ -49,6 +51,22 @@ const reactProjects = [
         desc: " This is a simple react app that consist of various emojis and thier meaning.",
         link: "https://emojipedia-with-reacts.netlify.app"
     },
+
+
+     {
+            pic: layhorStore,
+            name: "lahyor store.",
+            desc: "This is an ecomerce website where user can select, order and pay for their wears.  It is created with react.js",
+            link: "https://lahyorstore.netlify.app"
+        },
+    
+        {
+            pic: shopify,
+            name: "Shopify.",
+            desc: "This is an ecomerce website where user can select, order and pay for their gadget such as headphone, phone, etc.  It is created with react.js",
+            link: "https://shopify001.netlify.app"
+        }
+    
 
 ]
 

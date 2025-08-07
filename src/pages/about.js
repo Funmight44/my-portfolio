@@ -1,5 +1,5 @@
 // import mouse from "../BG-img/mouse-pic.jpg"
-import pics from "../BG-img/my pic.jpg"
+import pics from "../BG-img/proPic.jpg"
 import UseTitle from "../components/hook/useTitle";
 
 
