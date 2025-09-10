@@ -32,7 +32,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="achievements">
+            {/* <div className="achievements">
                 <div className="achievement">
                     <h2>50+</h2>
                     <p>experience</p>
@@ -43,7 +43,7 @@ const About = () => {
                     <p>Project Completed</p>
                 </div>
                 <hr/>
-            </div>
+            </div> */}
         </section>
      );
 }

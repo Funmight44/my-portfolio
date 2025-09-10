@@ -57,15 +57,15 @@ const reactProjects = [
             pic: layhorStore,
             name: "lahyor store.",
             desc: "This is an ecomerce website where user can select, order and pay for their wears.  It is created with react.js",
-            link: "https://lahyorstore.netlify.app"
-        },
+            link: "https://lahyorstore2.netlify.app"
+     },
     
-        {
+     {
             pic: shopify,
             name: "Shopify.",
             desc: "This is an ecomerce website where user can select, order and pay for their gadget such as headphone, phone, etc.  It is created with react.js",
             link: "https://shopify001.netlify.app"
-        }
+     }
     
 
 ]
