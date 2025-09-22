@@ -13,11 +13,55 @@ import socialBook from "../BG-img/socialBook_pic.png";
 import budgetPic from "../BG-img/budget-tracter-pic.png";
 import layhorStore from "../BG-img/lahyorStore.png"
 import shopify from "../BG-img/shopify.png"
+import HomeHaven from "../BG-img/HomeHaven.png"
 
-// 
-// /
+
 
 const myWorks = [
+     {
+        pic: layhorStore,
+        name: "lahyor store.",
+        desc: "This is an ecomerce website where user can select, order and pay for their wears.  It is created with react.js",
+        link: "https://lahyorstore.netlify.app"
+    },
+
+    {
+        pic: shopify,
+        name: "Shopify.",
+        desc: "This is an ecomerce website where user can select, order and pay for their gadget such as headphone, phone, etc.  It is created with react.js",
+        link: "https://shopify001.netlify.app"
+    }, 
+
+
+   {
+        pic: HomeHaven,
+        name: "HomeHaven.",
+        desc: "It is a real estate website. It has some features such as login and logout functionality, Products page, properties detail page, contact page etc. It is developed with react.js",
+        link: "https://homehaven2.netlify.app"
+    }, 
+
+    {
+        pic: quizeApp,
+        name: "Quize App.",
+        desc: "This is also built with HTML, CSS and Javascript. It contains some questions to test the users'knowlegde of Javascript.",
+        link: "https://javascript-quiz-applictation.netlify.app"
+    },
+
+     {
+        pic: pic5,
+        name: "Recipes.",
+        desc: "This app is designed with react.js. It contains a search functionality where users can search varieties of foods, their recipes and cooking procedures  and those recipes are displayed in the UI.",
+        link: "https://foodrecipes-app-reac.netlify.app"
+    },
+
+    {
+        pic: todoAppPic ,
+        name: "To Do List.",
+        desc:  "This app has some functionalities that enable the users to record and track their activities. This is also created with HTML, CSS and Javascript.",
+        link: 'https://event-manager-js.netlify.app'
+    }, 
+
+
     {
         pic: pic1,
         name: "Quote-Blog.",
@@ -40,12 +84,7 @@ const myWorks = [
         link: "https://code-book-app.netlify.app"
     },
 
-    {
-        pic: pic5,
-        name: "Recipes.",
-        desc: "This app is designed with react.js. It contains a search functionality where users can search varieties of foods, their recipes and cooking procedures  and those recipes are displayed in the UI.",
-        link: "https://foodrecipes-app-reac.netlify.app"
-    },
+   
 
     {
         pic: pic6,
@@ -68,13 +107,7 @@ const myWorks = [
         link: ""
     },
 
-    {
-        pic: quizeApp,
-        name: "Quize App.",
-        desc: "This is also built with HTML, CSS and Javascript. It contains some questions to test the users'knowlegde of Javascript.",
-        link: "https://javascript-quiz-applictation.netlify.app"
-    },
-
+    
     {
         pic: staybnbPic ,
         name: "Staybnb.",
@@ -82,12 +115,7 @@ const myWorks = [
         link: "https://chimerical-cobbler-d71a0c.netlify.app"
     },
 
-    {
-        pic: todoAppPic ,
-        name: "To Do List.",
-        desc:  "This app has some functionalities that enable the users to record and track their activities. This is also created with HTML, CSS and Javascript.",
-        link: 'https://event-manager-js.netlify.app'
-    }, 
+    
 
     {
         pic: VideTubePic ,
@@ -108,21 +136,9 @@ const myWorks = [
         name: "Budget Tracker.",
         desc: "This app is used to track income and expenses. It is created with HTML and CSS and Javascript",
         link: "https://budget-tracker-li.netlify.app"
-    },
-
-    {
-        pic: layhorStore,
-        name: "lahyor store.",
-        desc: "This is an ecomerce website where user can select, order and pay for their wears.  It is created with react.js",
-        link: "https://lahyorstore.netlify.app"
-    },
-
-    {
-        pic: shopify,
-        name: "Shopify.",
-        desc: "This is an ecomerce website where user can select, order and pay for their gadget such as headphone, phone, etc.  It is created with react.js",
-        link: "https://shopify001.netlify.app"
     }
+
+   
 
 
 ]
