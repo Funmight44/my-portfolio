@@ -1,14 +1,41 @@
+import { useEffect, useState } from "react";
 import UseTitle from "../components/hook/useTitle";
 import WorkCard from "../components/workCard";
 import myWorks from "../data/workData";
 
 const Work = () => {
-    UseTitle("projects page")
+    UseTitle("projects page");
+    const [filter, setFilter] = useState([])
+
+    useEffect(() => {
+        if(myWorks && myWorks.length > 0){
+            setFilter(myWorks)
+        }
+    }, [myWorks]);
+
+    function filterByCategory(category){
+        const filterCategories = myWorks.filter(item => item.category.toLowerCase() === category.toLowerCase())
+        setFilter(filterCategories)
+    }
+
+    function getAll(){
+        setFilter(myWorks)
+    }
+
+
+
+
     return ( 
         <section className="work">
-            <p className="work_title">My Projects</p>
+            <h2>Select Project category</h2>
+            <div className="category-btns">
+                <button onClick={() => getAll()}>All</button>
+                <button onClick={() => filterByCategory("HTML & CSS")}>HTML & CSS</button>
+                <button onClick={() => filterByCategory("JavaScript")}>Javascript</button>
+                <button onClick={() => filterByCategory("React")}>React.JS</button>
+            </div>
             <div className="projects">
-                {myWorks.map((work, index) => (
+                {filter.map((work, index) => (
                     <WorkCard key={index}  work={work}/>
                 ))}
             </div>

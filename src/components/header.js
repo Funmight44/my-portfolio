@@ -6,7 +6,7 @@ import logo from "../BG-img/logo.png"
 
 const Header = () => {
     const [toogle, setToogle] = useState(false);
-    const [showdropdown, setShowdropdown] = useState(false)
+    // const [showdropdown, setShowdropdown] = useState(false)
 
     return ( 
        <>
@@ -17,8 +17,8 @@ const Header = () => {
                     <Link to="/about"><p>About</p></Link>
                     <Link to="/skills"><p >Skills</p></Link>
                     <Link to="/services"><p>Services</p></Link>
-                    <Link to="/cssProjects"><p onClick={() => setShowdropdown(!showdropdown)}>projects</p></Link>
-                    {showdropdown && <Dropdown  setShowdropdown={setShowdropdown}/>}
+                    <Link to="/work"><p>projects</p></Link>
+                    {/* {showdropdown && <Dropdown  setShowdropdown={setShowdropdown}/>} */}
                 
                 </nav>
                   <Link to="/contact"> <p className="connect">Contact me</p></Link> 
