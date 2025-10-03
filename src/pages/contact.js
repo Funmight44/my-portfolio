@@ -32,7 +32,7 @@ const Contact = () => {
 
 
     return ( 
-        <section className="contact">
+        <section className="contact animate__animated animate__fadeInUp">
             <p className="contact-title">Get in touch </p>
             <div className="contact-session">
                 <div className="contact-left">

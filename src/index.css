@@ -556,7 +556,8 @@ header .connect:hover, .hero .hero-connect{
 
 .contact{
     width: 80%;
-    margin: 20px auto;
+    margin: 100px auto;
+    animation: fadeInUp 1.5s ease;
 }
 
 
