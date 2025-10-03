@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link} from "react-router-dom";
-import Dropdown from "./dropDown";
+// import Dropdown from "./dropDown";
 
 import logo from "../BG-img/logo.png"
 
@@ -10,7 +10,7 @@ const Header = () => {
 
     return ( 
        <>
-            <header className="relative">
+            <header>
                 <Link to="/"><img src={logo} alt="logo" className="logo"/></Link>
                 <nav>
                     <Link to="/"><p>Home</p></Link>

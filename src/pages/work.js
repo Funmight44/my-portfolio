@@ -3,15 +3,16 @@ import UseTitle from "../components/hook/useTitle";
 import WorkCard from "../components/workCard";
 import myWorks from "../data/workData";
 
+
 const Work = () => {
     UseTitle("projects page");
-    const [filter, setFilter] = useState([])
+    const [filter, setFilter] = useState([])    
 
     useEffect(() => {
         if(myWorks && myWorks.length > 0){
             setFilter(myWorks)
         }
-    }, [myWorks]);
+    }, []);
 
     function filterByCategory(category){
         const filterCategories = myWorks.filter(item => item.category.toLowerCase() === category.toLowerCase())
@@ -21,9 +22,6 @@ const Work = () => {
     function getAll(){
         setFilter(myWorks)
     }
-
-
-
 
     return ( 
         <section className="work">

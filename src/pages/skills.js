@@ -12,7 +12,7 @@ import wps from "../BG-img/wps-logo.png";
 
 const Skills = () => {
     return ( 
-            <section className="skills" id='skills'>
+            <section className="skills animate__animated animate__fadeInLeft" id='skills'>
                 <h1>Skills and Tools</h1>
                 <div className='skills-div'>
                     <div className='skills-logo'>

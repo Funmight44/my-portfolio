@@ -8,7 +8,7 @@ const About = () => {
 
 
     return ( 
-        <section className="about">
+        <section className="about animate__animated animate__fadeInUp">
                 <h1>About me</h1>
             <div className="about-section">
                 <div className="about-left">
