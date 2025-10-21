@@ -3,9 +3,16 @@ import { Link} from "react-router-dom";
 // import Dropdown from "./dropDown";
 
 import logo from "../BG-img/logo.png"
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Header = () => {
     const [toogle, setToogle] = useState(false);
+
+    useGSAP(() => {
+        gsap.fromTo('header', {y:-100, opacity: 0, duration:2}, {y:0, opacity:1, duration:2})
+
+    }, [])
 
     return ( 
        <>

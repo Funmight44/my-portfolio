@@ -31,7 +31,6 @@ const AllRoutes = () => {
                         <Route path="/services"  element={<Services/>}/>
                         <Route path="/work"  element={<Work/>}/>
                         <Route path="/contact"  element={<Contact/>}/>
-
                     </Routes>
                 </Suspense>
             </main>

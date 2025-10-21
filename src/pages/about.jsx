@@ -1,14 +1,21 @@
 // import mouse from "../BG-img/mouse-pic.jpg"
+import { useGSAP } from "@gsap/react";
 import pics from "../BG-img/proPic.jpg"
 import UseTitle from "../components/hook/useTitle";
+import gsap from "gsap";
 
 
 const About = () => {
     UseTitle('about page');
 
+    useGSAP(() => {
+        const tl = gsap.timeline()
+        tl.fromTo('about-left img', {x:200, opacity:0, duration:1}, {x:0, opacity:1, duration:1})
+    }, [])
+
 
     return ( 
-        <section className="about animate__animated animate__fadeInUp">
+        <section className="about">
                 <h1>About me</h1>
             <div className="about-section">
                 <div className="about-left">
