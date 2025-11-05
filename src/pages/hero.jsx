@@ -24,7 +24,7 @@ const Hero = () => {
                     as well as creating professional resumes and CVs and Data Entry
                 </p>
                 <div className="hero-action ">
-                    <Link to="/contact"><p className="hero-connect">Contact me</p></Link>
+                    <Link to="/contact"><p className="hero-connect">projects</p></Link>
                     <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
                     <p className="hero-resume">my resume</p></a>
                 </div>

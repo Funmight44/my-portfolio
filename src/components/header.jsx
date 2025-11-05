@@ -27,7 +27,7 @@ const Header = () => {
                     {/* {showdropdown && <Dropdown  setShowdropdown={setShowdropdown}/>} */}
                 
                 </nav>
-                  <Link to="/contact"> <p className="connect">Contact me</p></Link> 
+                  <Link to="/contact"> <p className="connect">Contact</p></Link> 
                   <span className="menubar"  onClick={() => setToogle(!toogle)}><i class="bi bi-list"></i></span>
             </header>
 
@@ -38,7 +38,7 @@ const Header = () => {
                     <Link to="/about"><p >About</p></Link>
                     <Link to="/skills"><p >Skills</p></Link>
                     <Link to="/services"><p>Services</p></Link>
-                    <Link to="/work"><p>projects</p></Link>
+                    <Link to="/contact"> <p>Contact me</p></Link>
                 </nav>
             
         </>
