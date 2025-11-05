@@ -767,7 +767,7 @@ footer .footer-bottom p{
 
 .sidebar{
     position: fixed;
-    top: 0;
+    top: 50px;
     left: -250px; /* Hidden off-screen */
     width: 200px;
     height: 100%;
@@ -781,6 +781,7 @@ footer .footer-bottom p{
     flex-direction: column;
     gap: 3rem;
   }
+  
 
   .sidebar.active{
     left: 0;
