@@ -456,6 +456,17 @@ header .connect:hover, .hero .hero-connect{
     transform: scale(1.1);
 }
 
+.work  .category-btns button.active {
+  background: #2563eb;
+}
+
+@media (max-width: 768px) {
+ .work .category-btns button:nth-child(2) {
+    margin-left: 45px;
+  }
+}
+
+
 .work .projects{
     display:  flex;
     flex-wrap: wrap;
