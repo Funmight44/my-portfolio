@@ -2,11 +2,20 @@ import { useEffect, useState } from "react";
 import UseTitle from "../components/hook/useTitle";
 import WorkCard from "../components/workCard";
 import myWorks from "../data/workData";
-
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Work = () => {
+    useGSAP(() => {
+        const tl = gsap.timeline({defaults: {ease: 'power3.inOut', duration:1}})
+        tl.from('.work h2', {opacity:0, y:-40, duration:1})
+         .from(".category-btns button", { opacity: 1, y: 25, stagger: 0.12 });
+    }, [])
+
+
+
     UseTitle("projects page");
-    const [filter, setFilter] = useState([])    
+    const [filter, setFilter] = useState([]);  
 
     useEffect(() => {
         if(myWorks && myWorks.length > 0){

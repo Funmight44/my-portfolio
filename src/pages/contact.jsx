@@ -1,9 +1,21 @@
 import { useState } from "react";
 import UseTitle from "../components/hook/useTitle";
 import { Link } from "react-router-dom";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const Contact = () => {
   UseTitle("contact page")
+
+  useGSAP(() => {
+    const tl = gsap.timeline({ defaults: { ease: "power3.out", duration: 1 } });
+
+    tl.from(".contact h1", { y: -50, opacity: 0, duration: 0.8, })
+      .from(".contact-left .contact-para", { x: -100, opacity: 0, duration: 1,})
+      .from(".contact-details .contact-detail", {x: 100, opacity: 0, duration: 1, stagger: 0.3 }, "-=0.8") // overlap with image animation
+      .from(".contact-right label", {opacity: 0, y: 20,stagger: 0.2, duration: 0.6, })
+      .from(".contact-right input, .contact-right textarea, .contact-right button", {opacity: 0, y: 20,stagger: 0.2, duration: 0.6, })
+  }, []);
 
     const [result, setResult] = useState("");
     const onSubmit = async (event) => {

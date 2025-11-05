@@ -9,10 +9,15 @@ const About = () => {
     UseTitle('about page');
 
     useGSAP(() => {
-        const tl = gsap.timeline()
-        tl.fromTo('about-left img', {x:200, opacity:0, duration:1}, {x:0, opacity:1, duration:1})
-    }, [])
+    const tl = gsap.timeline({ defaults: { ease: "power3.out", duration: 1 } });
 
+    tl.from(".about h1", { y: -50, opacity: 0,  duration: 0.8, })
+      .from(".about-left img", {  x: -100, opacity: 0, duration: 1,})
+      .from(".about-right", {x: 100, opacity: 0, duration: 1, }, "-=0.8") // overlap with image animation
+      .from(".about-para p", {opacity: 0, y: 20,stagger: 0.2, duration: 0.6, })
+      .from(".about-skills .skill hr", {width: 0, duration: 1, stagger: 0.15, ease: "power2.out",
+      });
+  }, []);
 
     return ( 
         <section className="about">

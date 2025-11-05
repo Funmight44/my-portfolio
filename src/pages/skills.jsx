@@ -8,9 +8,21 @@ import google from "../BG-img/google-doc-logo.jpg";
 import microsoft from "../BG-img/office-365-logo.png";
 import wps from "../BG-img/wps-logo.png";
 
-
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 const Skills = () => {
+    useGSAP(() => {
+    const tl = gsap.timeline({ defaults: { ease: "power3.out", duration: 1 } });
+
+    tl.from(".skills h1", {y: -50, opacity: 0, duration: 0.8, })
+      .from(".skills-logo img", {opacity: 0, y: 30, scale: 0.5, stagger: 0.15, duration: 0.6, })
+      .from(".skills-info li", {opacity: 0,  x: 50, stagger: 0.2, duration: 0.6,});
+  }, []);
+    
+
+
+
     return ( 
             <section className="skills animate__animated animate__fadeInLeft" id='skills'>
                 <h1>Skills and Tools</h1>
