@@ -12,13 +12,20 @@ import VideTubePic from "../BG-img/videTube-pic.png";
 import socialBook from "../BG-img/socialBook_pic.png";
 import budgetPic from "../BG-img/budget-tracter-pic.png";
 import layhorStore from "../BG-img/lahyorStore.png"
-import shopify from "../BG-img/shopify.png"
-import HomeHaven from "../BG-img/HomeHaven.png"
-import TodoPic from "../BG-img/Todo-React.png"
-
+import shopify from "../BG-img/shopify.png";
+import HomeHaven from "../BG-img/HomeHaven.png";
+import TodoPic from "../BG-img/Todo-React.png";
+import appInfo from "../BG-img/users-info-app.png";
 
 
 const myWorks = [
+  {
+    pic: appInfo, 
+    name: "User Info App.",
+    desc: "Built an authentication app using manual form validation and Firebase Authentication, enabling users to securely register, log in, and log out.",
+    link: "https://form-va.netlify.app",
+    category: "React"
+  },
   {
     pic: layhorStore,
     name: "Lahyor Store.",
